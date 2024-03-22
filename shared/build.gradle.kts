@@ -63,6 +63,8 @@ kotlin {
             export("dev.icerock.moko:mvvm-state")
         }
     }
+
+    task("testClasses")
 }
 
 android {
